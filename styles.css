@@ -64,7 +64,7 @@ button { margin-top:25px; padding:12px 32px; border-radius:999px; border:none; b
     }
 
     /* GRID */
-    .grid { max-width:750px; width:90%; margin:auto; display:grid; grid-template-columns:repeat(2,1fr); gap:25px; }
+    .grid {margin:auto; display:grid; grid-template-columns:repeat(2,1fr); gap:25px; }
 
 
     /* CARDS */
@@ -89,5 +89,6 @@ button { margin-top:25px; padding:12px 32px; border-radius:999px; border:none; b
     }
 
 }
+
 
 
