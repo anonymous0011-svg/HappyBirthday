@@ -54,7 +54,7 @@ button { margin-top:25px; padding:12px 32px; border-radius:999px; border:none; b
     }
     h2.gallery-heading {
         font-size: 2rem;
-        margin-bottom: 30px;
+        margin-bottom: 3px;
     }
 
     /* BUTTONS */
@@ -64,10 +64,8 @@ button { margin-top:25px; padding:12px 32px; border-radius:999px; border:none; b
     }
 
     /* GRID */
-    .grid {
-        grid-template-columns: 1fr; /* single column on mobile */
-        gap: 15px;
-    }
+    .grid { max-width:750px; width:90%; margin:auto; display:grid; grid-template-columns:repeat(2,1fr); gap:25px; }
+
 
     /* CARDS */
     .card {
@@ -91,4 +89,5 @@ button { margin-top:25px; padding:12px 32px; border-radius:999px; border:none; b
     }
 
 }
+
 
